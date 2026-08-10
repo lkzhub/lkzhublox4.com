@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUKZ SCRIPT | Official Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body { background-color: #0b0b0e; color: #ffffff; font-family: system-ui, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- NAVBAR -->
+  <header class="border-b border-gray-800/80 bg-[#121218] px-6 py-4 flex items-center justify-between sticky top-0 z-50">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 bg-gradient-to-tr from-orange-600 to-amber-500 rounded-xl flex items-center justify-center font-black text-black shadow-lg shadow-orange-500/20">
+        LS
+      </div>
+      <div>
+        <h1 class="font-extrabold text-base leading-none tracking-wide text-white">LUKZ SCRIPT</h1>
+        <span class="text-[11px] text-red-500 font-semibold tracking-wider">● YOUTUBE HUB</span>
+      </div>
+    </div>
+
+    <!-- Buscador -->
+    <div class="relative w-1/3 hidden md:block">
+      <i data-lucide="search" class="absolute left-3 top-2.5 w-4 h-4 text-gray-400"></i>
+      <input type="text" placeholder="Buscar scripts, ejecutores..." class="w-full bg-[#1a1a24] text-sm text-gray-200 rounded-xl pl-9 pr-4 py-2 border border-gray-700/40 focus:outline-none focus:border-orange-500 transition">
+    </div>
+
+    <nav class="flex items-center gap-5 text-sm font-medium">
+      <a href="#" class="text-gray-300 hover:text-white transition">Scripts</a>
+      <a href="#" class="text-gray-300 hover:text-white transition">Ejecutores</a>
+      <a href="#" class="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-black font-bold px-4 py-2 rounded-xl transition shadow-md shadow-orange-500/10">
+        Suscribirse
+      </a>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="max-w-7xl mx-auto px-6 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <h2 class="text-3xl font-extrabold tracking-tight">Últimos <span class="text-orange-500">Scripts & Exploits</span></h2>
+      <p class="text-gray-400 text-sm mt-1">Scripts funcionales, GUIs y auto-farms actualizados.</p>
+    </div>
+
+    <!-- GRID DE TARJETAS -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- TARJETA 1 -->
+      <div class="bg-[#14141c] border border-gray-800/80 rounded-2xl overflow-hidden hover:border-orange-500/50 transition flex flex-col justify-between group">
+        <div class="relative overflow-hidden">
+          <img src="https://via.placeholder.com/400x225/1f1f2e/ffffff?text=LUKZ+SCRIPT" alt="Script" class="w-full aspect-video object-cover group-hover:scale-105 transition duration-300">
+          <span class="absolute top-3 left-3 bg-orange-500 text-black text-[10px] font-black px-2.5 py-1 rounded-md uppercase tracking-wider">NUEVO</span>
+        </div>
+
+        <div class="p-4 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-sm text-gray-100 group-hover:text-orange-400 transition line-clamp-2">
+              RIVALS SCRIPT - NO KEY | Silent Aim, Auto Win Farm, ESP & More!
+            </h3>
+            <div class="flex items-center gap-2 text-xs text-gray-400 mt-3 font-medium">
+              <span>4.1K Vistas</span>
+              <span>•</span>
+              <span>Hace 11 horas</span>
+            </div>
+          </div>
+
+          <a href="#" class="mt-5 w-full bg-orange-500/10 border border-orange-500/30 hover:bg-orange-500 hover:text-black text-orange-400 font-bold text-xs py-2.5 rounded-xl flex items-center justify-center gap-2 transition">
+            <i data-lucide="download" class="w-4 h-4"></i> Obtener Script
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-gray-800/60 bg-[#0e0e14] py-6 text-center text-xs text-gray-500">
+    <p>© 2026 LUKZ SCRIPT - Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
