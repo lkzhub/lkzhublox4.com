@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LUKZ SCRIPT | Official Hub</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
   <style>
     body { background-color: #0b0b0e; color: #ffffff; font-family: system-ui, sans-serif; }
   </style>
@@ -23,67 +22,40 @@
         <span class="text-[11px] text-red-500 font-semibold tracking-wider">● YOUTUBE HUB</span>
       </div>
     </div>
-
-    <!-- Buscador -->
-    <div class="relative w-1/3 hidden md:block">
-      <i data-lucide="search" class="absolute left-3 top-2.5 w-4 h-4 text-gray-400"></i>
-      <input type="text" placeholder="Buscar scripts, ejecutores..." class="w-full bg-[#1a1a24] text-sm text-gray-200 rounded-xl pl-9 pr-4 py-2 border border-gray-700/40 focus:outline-none focus:border-orange-500 transition">
-    </div>
-
-    <nav class="flex items-center gap-5 text-sm font-medium">
-      <a href="#" class="text-gray-300 hover:text-white transition">Scripts</a>
-      <a href="#" class="text-gray-300 hover:text-white transition">Ejecutores</a>
-      <a href="#" class="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-black font-bold px-4 py-2 rounded-xl transition shadow-md shadow-orange-500/10">
-        Suscribirse
-      </a>
-    </nav>
   </header>
 
   <!-- CONTENIDO -->
-  <main class="max-w-7xl mx-auto px-6 py-10 flex-1 w-full">
-    <div class="mb-8">
-      <h2 class="text-3xl font-extrabold tracking-tight">Últimos <span class="text-orange-500">Scripts & Exploits</span></h2>
-      <p class="text-gray-400 text-sm mt-1">Scripts funcionales, GUIs y auto-farms actualizados.</p>
+  <main class="max-w-4xl mx-auto px-4 py-8 w-full flex-1">
+    
+    <div class="text-center mb-10 space-y-2">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-white">LUKZ SCRIPT HUB 🏆</h1>
+      <p class="text-sm text-gray-400">Selecciona el juego para obtener el script oficial</p>
     </div>
 
-    <!-- GRID DE TARJETAS -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <!-- GRILLA DE JUEGOS -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-      <!-- TARJETA 1 -->
-      <div class="bg-[#14141c] border border-gray-800/80 rounded-2xl overflow-hidden hover:border-orange-500/50 transition flex flex-col justify-between group">
-        <div class="relative overflow-hidden">
-          <img src="https://via.placeholder.com/400x225/1f1f2e/ffffff?text=LUKZ+SCRIPT" alt="Script" class="w-full aspect-video object-cover group-hover:scale-105 transition duration-300">
-          <span class="absolute top-3 left-3 bg-orange-500 text-black text-[10px] font-black px-2.5 py-1 rounded-md uppercase tracking-wider">NUEVO</span>
+      <!-- TARJETA KING LEGACY (TE LLEVA A SCRIPT.HTML) -->
+      <a href="script.html" class="block bg-[#14141c] hover:bg-[#1a1a24] border border-gray-800 hover:border-amber-500/50 transition duration-200 p-5 rounded-2xl group shadow-lg">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs bg-amber-500/10 text-amber-400 font-bold px-3 py-1 rounded-full border border-amber-500/20">NEW SCRIPT</span>
+          <span class="text-xs text-gray-500">Updated</span>
         </div>
-
-        <div class="p-4 flex-1 flex flex-col justify-between">
-          <div>
-            <h3 class="font-bold text-sm text-gray-100 group-hover:text-orange-400 transition line-clamp-2">
-              RIVALS SCRIPT - NO KEY | Silent Aim, Auto Win Farm, ESP & More!
-            </h3>
-            <div class="flex items-center gap-2 text-xs text-gray-400 mt-3 font-medium">
-              <span>4.1K Vistas</span>
-              <span>•</span>
-              <span>Hace 11 horas</span>
-            </div>
-          </div>
-
-          <a href="#" class="mt-5 w-full bg-orange-500/10 border border-orange-500/30 hover:bg-orange-500 hover:text-black text-orange-400 font-bold text-xs py-2.5 rounded-xl flex items-center justify-center gap-2 transition">
-            <i data-lucide="download" class="w-4 h-4"></i> Obtener Script
-          </a>
+        <h2 class="text-xl font-bold text-white group-hover:text-amber-400 transition">King Legacy Script</h2>
+        <p class="text-xs text-gray-400 mt-1">Auto Farm Boss, Dungeon, Kill Aura & More!</p>
+        <div class="mt-4 flex items-center text-amber-400 font-extrabold text-sm gap-1">
+          Obtener Script →
         </div>
-      </div>
+      </a>
 
     </div>
+
   </main>
 
   <!-- FOOTER -->
-  <footer class="border-t border-gray-800/60 bg-[#0e0e14] py-6 text-center text-xs text-gray-500">
-    <p>© 2026 LUKZ SCRIPT - Todos los derechos reservados.</p>
+  <footer class="border-t border-gray-800/60 bg-[#0e0e14] py-6 text-center text-xs text-gray-500 mt-10">
+    <p>© 2026 LKZ HUB - Todos los derechos reservados.</p>
   </footer>
 
-  <script>
-    lucide.createIcons();
-  </script>
 </body>
 </html>
